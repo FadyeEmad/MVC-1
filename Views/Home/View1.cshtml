@@ -1,0 +1,23 @@
+﻿
+<h2>Hello Developers</h2>
+<style>
+    h2 {
+        color : lightseagreen
+    }
+    h5{
+        color:darkblue;
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+</style>
+
+@{
+    int X = 10;
+    int Y = 20+X;
+}
+<h5>Number of developers = @Y</h5>
+
+@for(int y=1; y<=10 ; y++)
+{
+    <li>Id = @y</li>;
+    <style>li{color : lightgreen}</style>
+}
